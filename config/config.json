@@ -1,0 +1,154 @@
+{
+  "M1_MP": {
+    "value": 30,
+    "description": "(SMT ONLY) Metal 1 (PC Layer) Metal Pitch: CPP/2"
+  },
+  "M2_MP": {
+    "value": 50,
+    "description": "(SMT ONLY) Metal 2 (M0 Layer) Metal Pitch: Default to M4. Not part of GR."
+  },
+  "M3_MP": {
+    "value": 40,
+    "description": "(SMT ONLY) Metal 3 (M1 Layer) Metal Pitch"
+  },
+  "M4_MP": {
+    "value": 50,
+    "description": "(SMT ONLY) Metal 4 (M2 Layer) Metal Pitch: Not part of GR."
+  },
+  "M1_MetalPitch": {
+    "value": 22.5,
+    "description": "(Layout ONLY) Metal 1 (PC Layer) Metal Pitch: CPP/2"
+  },
+  "M2_MetalPitch": {
+    "value": 22,
+    "description": "(Layout ONLY) Metal 2 (M0 Layer) Metal Pitch"
+  },
+  "M3_MetalPitch": {
+    "value": 30,
+    "description": "(Layout ONLY) Metal 3 (M1 Layer) Metal Pitch"
+  },
+  "M4_MetalPitch": {
+    "value": 22,
+    "description": "(Layout ONLY) Metal 4 (M2 Layer) Metal Pitch"
+  },
+  "BoundaryCondition": {
+    "value": 0,
+    "description": "Cell Boundary 0: Fixed, 1: Extensible"
+  },
+  "SON": {
+    "value": 1,
+    "description": "Super Outer Node 0: Disable, 1: Enable"
+  },
+  "DoublePowerRail": {
+    "value": 0,
+    "description": "Double Power Rail 0: Disable, 1: Enable"
+  },
+  "MAR_Parameter": {
+    "value": 20,
+    "description": "Minimum Area 1: (Default), Integer"
+  },
+  "EOL_Parameter": {
+    "value": 1,
+    "description": "End-of-Line  1: (Default), Integer"
+  },
+  "VR_Parameter": {
+    "value": 30.0,
+    "description": "VIA sqrt(2)_=1.5 : (Default), Floating"
+  },
+  "PRL_Parameter": {
+    "value": 1,
+    "description": "Parallel Run-length 1: (Default). Integer"
+  },
+  "SHR_Parameter": {
+    "value": 2,
+    "description": "Step Heights 1: (Default), Integer"
+  },
+  "MPL_Parameter": {
+    "value": 3,
+    "description": "3: (Default) Minimum Pin Opening"
+  },
+  "MM_Parameter": {
+    "value": 4,
+    "description": "Maximum Number of MetalLayer"
+  },
+  "Local_Parameter": {
+    "value": 1,
+    "description": "0: Disable(Default) 1: Localization for Internal node within same diffusion region"
+  },
+  "Partition_Parameter": {
+    "value": 2,
+    "description": "0: Disable(Default) 1. Cell Partitioning 2. [PLACEHOLDER]"
+  },
+  "BCP_Parameter": {
+    "value": 1,
+    "description": "0: Disable 1: Enable BCP(Default)"
+  },
+  "NDE_Parameter": {
+    "value": 0,
+    "description": "0: Disable(Default) 1: Enable NDE"
+  },
+  "BS_Parameter": {
+    "value": 0,
+    "description": "0: Disable(Default) 1: Enable BS(Breaking Symmetry)"
+  },
+  "PE_Parameter": {
+    "value": 1,
+    "description": "1: Pin Enhancement Function 2: Edge-based Pin Separation 3: Minimize PS=1 and PS=2"
+  },
+  "PE1_newflag": {
+    "value": 1,
+    "description": "0: use virtual-edge based implementation (old), 1: use edge-based implementation (new) for performance (AND3x2, OR3x2, AOI22x1)"
+  },
+  "M2_TRACK_Parameter": {
+    "value": 1,
+    "description": "1: M2 track minimization"
+  },
+  "M2_Length_Parameter": {
+    "value": 1,
+    "description": "1: M2 Length minimization"
+  },
+  "dint": {
+    "value": 2,
+    "description": "M1 Separation Pitch"
+  },
+  "VR_stacked_via_flag": {
+    "value": 0,
+    "description": "1: Allow stacked via 0: Not allow stacked via"
+  },
+  "VR_double_samenet_flag": {
+    "value": 1,
+    "description": "1: Allow double via for same net; 0: Not allow double via for same net"
+  },
+  "dummy_g_struct_flag": {
+    "value": "Share",
+    "description": "Identify Dummy structure as Split or Share"
+  },
+  "dummy_sd_struct_flag": {
+    "value": "Split",
+    "description": "Identify Dummy structure as Split or Share"
+  },
+  "stack_struct_flag": {
+    "value": "PN",
+    "description": "Identify PFET on NFET [PN] or NFET on PFET [NP] ; ICCAD=PN"
+  },
+  "via_cost": {
+    "value": 50,
+    "description": "Cost for VIA construction (related to MP-based Metal Cost)"
+  },
+  "top_metal_cost_multiplier": {
+    "value": 1.2,
+    "description": "Cost Mutiplier for Top Layer Metals (related to MP-based Metal Cost)"
+  },
+  "EXT_Parameter": {
+    "value": 0,
+    "description": "0: Disable 1: Enable BCP(Default)"
+  },
+  "tolerance_Parameter": {
+    "value": 5,
+    "description": "Localization Offset Margin, Integer"
+  },
+  "XOL_Parameter": {
+    "value": 2,
+    "description": "Depends on XOL_Mode"
+  }
+}
